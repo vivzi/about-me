@@ -19,11 +19,22 @@ This is my personal website, designed and developed to showcase who I am, what I
 - Tailwind CSS
 - ESLint
 
+## Future Plans
+
+ - Include a blog
+ - Deploy with a custom domain
+
 ## Why I'm building this
 
-I wanted to create a personal website that reflects who I am as a developer and serves as a portfolio for my work.
+I wanted to create a personal website that reflects who I am as a developer and serves as a portfolio for my work. Rather than relying on a single social media profile, I wanted a place where I could fully customise and continue improving over time
 
 ## Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/vivzi/about-me
+```
 
 Install dependencies:
 
