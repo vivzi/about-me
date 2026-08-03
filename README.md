@@ -13,10 +13,9 @@ This is my personal website, designed and developed to showcase who I am, what I
 
 ## Tech Stack
 
-- Next.JS
+- Vite
 - React
 - TypeScript
-- Tailwind CSS
 - ESLint
 
 ## Future Plans
