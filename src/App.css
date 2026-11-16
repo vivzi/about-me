@@ -125,3 +125,157 @@ hr {
   gap: 160px;
   margin-top: 20px;
 }
+
+.things-im-making-section {
+  background-color: #292929;
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  flex-direction: column;
+  min-height: 732px;
+}
+
+.tim-section-tag {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 12px;
+  font-weight: 500;
+  padding-left: 50px;
+  padding-top: 50px;
+  color: #EEEBDD;
+  margin: 0;
+}
+
+.tim-section-header {
+  font-family: 'Anton', sans-serif;
+  font-size: 64px;
+  margin: 0;
+  color: #EEEBDD;
+  padding-left: 50px;
+}
+
+.tim-section-description {
+  padding-top: 20px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 14px;
+  padding-left: 50px;
+  color: #EEEBDD;
+  margin: 0;
+}
+
+.tim-section-project-grid {
+  display: grid;
+  width: 100%;
+  min-height: 429px;
+  grid-template-columns: repeat(3, 416px);
+  justify-content: center;
+  gap: 24px;
+  padding-top: 30px;
+}
+
+.tim-section-project-gridbox {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #EEEBDD;
+  color: #292929;
+}
+
+.tim-section-project-gridbox-top {
+  display: flex;
+  height: 26px;
+  padding-top: 28px;
+  padding-left: 28px;
+  width: 392px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.tim-section-project-gridbox-top-left {
+  display: flex;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 12px;
+  font-weight: 500;
+  width: 50%;
+  justify-content: flex-start;
+}
+
+.tim-section-project-gridbox-top-right {
+  display: flex;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 20px;
+  width: 50%;
+  justify-content: flex-end;
+}
+
+.tim-section-project-gridbox-top-hr {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color: rgba(255, 255, 255, 0);
+  background-color: #292929;
+  max-height: 1px;
+  width: 88%;
+  margin-left: 6%;
+  display: flex;
+}
+
+.tim-section-project-gridbox-project-name {
+  padding-left: 28px;
+  font-family: 'Anton', sans-serif;
+  font-size: 32px;
+  margin: 0;
+}
+
+.tim-section-project-gridbox-project-description {
+  padding-left: 28px;
+  padding-right: 28px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 14px;
+  padding-top: 10px;
+  min-height: 84px;
+  line-height: 170%;
+}
+
+.tim-section-project-gridbox-project-stack-top {
+  padding-left: 28px;
+  padding-top: 20px;
+  font-size: 10px;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.tim-section-project-gridbox-project-stack-bottom {
+  padding-left: 28px;
+  margin: 0;
+  font-size: 12px;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.tim-section-project-gridbox-project-bottom-link {
+  padding-left: 28px;
+  padding-right: 28px;
+  display: flex;
+  flex-direction: row;
+}
+
+.tim-section-project-gridbox-project-bottom-github-link {
+  color: #292929;
+  margin: 0;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 600;
+  font-size: 13px;
+  width: 16%;
+}
+
+.tim-section-project-gridbox-project-bottom-arrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 84%;
+}
+
+.tim-section-footer {
+  padding-top: 30px;
+  padding-left: 50px;
+  font-size: 12px;
+  font-family: 'IBM Plex Mono', monospace;
+  color: #EEEBDD;
+}

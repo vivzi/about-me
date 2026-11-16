@@ -30,6 +30,74 @@ function App() {
           </div>
         </div>
       </div>
+      <div className="things-im-making-section">
+          <p className="tim-section-tag">01 / PROGRAMMING</p>
+          <p className='tim-section-header'>THINGS I'M BUILDING</p>
+          <p className='tim-section-description'>A home for my code, experiments and whatever comes next.</p>
+          <div className='tim-section-project-grid'>
+            <div className='tim-section-project-gridbox'>
+              <div className='tim-section-project-gridbox-top'>
+                <div className='tim-section-project-gridbox-top-left'>
+                    PROJECT / README
+                </div>
+                <div className='tim-section-project-gridbox-top-right'>
+                    [+]
+                </div>
+              </div>
+              <span className='tim-section-project-gridbox-top-hr'>_</span>
+              <p className='tim-section-project-gridbox-project-name'>[RIFFSTORM]</p>
+              <p className='tim-section-project-gridbox-project-description'>[Guitar riff practice app with sound detection.]</p>
+              <p className='tim-section-project-gridbox-project-stack-top'>BUILT WITH</p>
+              <p className='tim-section-project-gridbox-project-stack-bottom'>[VITE / JAVASCRIPT]</p>
+              <span className='tim-section-project-gridbox-top-hr'>_</span>
+              <div className='tim-section-project-gridbox-project-bottom-link'>
+                <a href="https://github.com/vivzi/riffstorm" className='tim-section-project-gridbox-project-bottom-github-link'>[GITHUB]</a>
+                <div className='tim-section-project-gridbox-project-bottom-arrow'><svg xmlns="http://www.w3.org/2000/svg" viewBox="1 1 18 18" height="18px" width="18px" fill="292929"><path d="M5.06,16L4,14.94L12.94,6H8V4.5h7.5V12H14V7.06L5.06,16Z"/></svg></div>
+              </div>
+            </div>
+            <div className='tim-section-project-gridbox'>
+              <div className='tim-section-project-gridbox-top'>
+                <div className='tim-section-project-gridbox-top-left'>
+                    PROJECT / README
+                </div>
+                <div className='tim-section-project-gridbox-top-right'>
+                    [+]
+                </div>
+              </div>
+              <span className='tim-section-project-gridbox-top-hr'>_</span>
+              <p className='tim-section-project-gridbox-project-name'>[EXML 26]</p>
+              <p className='tim-section-project-gridbox-project-description'>[Working on my school club's (Exun's) ML event. EXML 26 Was a 3v3 Marble Run game.]</p>
+              <p className='tim-section-project-gridbox-project-stack-top'>BUILT WITH</p>
+              <p className='tim-section-project-gridbox-project-stack-bottom'>[GODOT / PYTHON]</p>
+              <span className='tim-section-project-gridbox-top-hr'>_</span>
+              <div className='tim-section-project-gridbox-project-bottom-link'>
+                <a href="https://github.com/v-pun215/exml26" className='tim-section-project-gridbox-project-bottom-github-link'>[GITHUB]</a>
+                <div className='tim-section-project-gridbox-project-bottom-arrow'><svg xmlns="http://www.w3.org/2000/svg" viewBox="1 1 18 18" height="18px" width="18px" fill="292929"><path d="M5.06,16L4,14.94L12.94,6H8V4.5h7.5V12H14V7.06L5.06,16Z"/></svg></div>
+              </div>
+            </div>
+            <div className='tim-section-project-gridbox'>
+              <div className='tim-section-project-gridbox-top'>
+                <div className='tim-section-project-gridbox-top-left'>
+                    PROJECT / README
+                </div>
+                <div className='tim-section-project-gridbox-top-right'>
+                    [+]
+                </div>
+              </div>
+              <span className='tim-section-project-gridbox-top-hr'>_</span>
+              <p className='tim-section-project-gridbox-project-name'>[CRAI]</p>
+              <p className='tim-section-project-gridbox-project-description'>[W.I.P] [Clash Royale AI. It's a neural network trained through reinforcement learning to play Clash Royale.]</p>
+              <p className='tim-section-project-gridbox-project-stack-top'>BUILT WITH</p>
+              <p className='tim-section-project-gridbox-project-stack-bottom'>[GODOT / PYTHON]</p>
+              <span className='tim-section-project-gridbox-top-hr'>_</span>
+              <div className='tim-section-project-gridbox-project-bottom-link'>
+                <a href="https://github.com/vivzi/crai" className='tim-section-project-gridbox-project-bottom-github-link'>[GITHUB]</a>
+                <div className='tim-section-project-gridbox-project-bottom-arrow'><svg xmlns="http://www.w3.org/2000/svg" viewBox="1 1 18 18" height="18px" width="18px" fill="292929"><path d="M5.06,16L4,14.94L12.94,6H8V4.5h7.5V12H14V7.06L5.06,16Z"/></svg></div>
+              </div>
+            </div>
+          </div>
+          <p className='tim-section-footer'>{'</work_in_progress>'}</p>
+      </div>
     </main>
   )
 }
