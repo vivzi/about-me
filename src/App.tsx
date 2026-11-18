@@ -144,6 +144,15 @@ function App() {
           </div>
         </div>
       </div>
+      <div className="footer">
+        <div className="footer-left">
+          <p className="footer-header">Thanks for Stopping By.</p>
+          <p className="footer-tag">vivzi.</p>
+        </div>
+        <div className="footer-right">
+          <a href="https://riffstorm.vivzi.xyz"><img src='riffstorm.svg' width="144" height="40"></img></a>
+        </div>
+      </div>
     </main>
   )
 }
