@@ -117,7 +117,7 @@ function App() {
             <div className="editable-spotify-area">
                 <p className="generic-tag">MY SPOTIFY CORNER</p>
                 <p className="generic-special-title">[vivzi]</p>
-                <p className="generic-description">I love metalcore I love metalcore I love metalcore also did I mention that I love metalcore?</p>
+                <p className="generic-description">I listen to Rock, Metal, EDM and Rap.</p>
                 <div className="spotify-link-border">
                   <a href="https://open.spotify.com/user/spbcypvr019mzcj4jh0xf1p0n" className="spotify-link">[https://open.spotify.com/user/spbcypvr019mzcj4jh0xf1p0n]</a>
                   <div className='spotify-link-arrow'><svg xmlns="http://www.w3.org/2000/svg" viewBox="1 1 18 18" height="18px" width="18px" fill="292929"><path d="M5.06,16L4,14.94L12.94,6H8V4.5h7.5V12H14V7.06L5.06,16Z"/></svg></div>
