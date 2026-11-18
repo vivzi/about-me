@@ -40,6 +40,11 @@ npm run dev
 
 Step 2. Open `localhost:5173` in your browser
 
+## Reflection
+- I learned how to write better CSS
+- I gained work experience with Figma and I feel more confident working with Figma
+- I feel that I still need to learn better CSS though as I gave up at the end and used AI.
+
 ## License
 
 This project is licensed under the MIT License.
