@@ -399,3 +399,62 @@ hr {
   padding-top: 12px;
   padding-left: 130px;
 }
+
+/* Socials Section */
+.socials-section {
+  background-color: #DAEF40;
+  min-height: 286px;
+  display: flex;
+  flex-direction: column;
+  padding: 56px 72px;
+  gap: 32px;
+}
+
+.socials-grid {
+  gap: 48px;
+  display: flex;
+  flex-direction: row;
+  height: 126px;
+}
+
+.socials-grid-title-frame {
+  width: 420px;
+  padding-right: 120px;
+}
+
+.socials-grid-frame {
+  width: 390px;
+  height: 97px;
+  gap: 16px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.socials-grid-frame-title {
+  font-family: 'Anton', sans-serif;
+  font-size: 28px;
+  margin: 0;
+}
+
+.socials-grid-frame-id {
+  font-family: 'IBM Plex Mono', sans-serif;
+  font-size: 17px;
+  margin: 0;
+  font-weight: 500;
+}
+
+.socials-title {
+  font-family: 'Anton', sans-serif;
+  font-size: 58px;
+  margin: 0;
+  line-height: 1;
+}
+
+.socials-grid-frame-hr {
+  color: rgba(255, 255, 255, 0);
+  background-color: #292929;
+  max-height: 1px;
+  width: 100%;
+  display: flex;
+}

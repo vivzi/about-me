@@ -126,6 +126,24 @@ function App() {
             </div>
         </div>
       </div>
+      <div className="socials-section">
+        <p className="generic-tag">04 / ELSEWHERE ON THE INTERNET</p>
+        <div className="socials-grid">
+          <div className="socials-grid-title-frame">
+            <p className="socials-title">TALK TO ME, IF YOU WANT.</p>
+          </div>
+          <div className="socials-grid-frame">
+              <p className="socials-grid-frame-title">INSTAGRAM</p>
+              <p className="socials-grid-frame-id">@_vivaan.choudhary</p>
+              <span className="socials-grid-frame-hr">_</span>
+          </div>
+          <div className="socials-grid-frame">
+              <p className="socials-grid-frame-title">DISCORD</p>
+              <p className="socials-grid-frame-id">@_sk3.</p>
+              <span className="socials-grid-frame-hr">_</span>
+          </div>
+        </div>
+      </div>
     </main>
   )
 }
