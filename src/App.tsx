@@ -98,6 +98,34 @@ function App() {
           </div>
           <p className='tim-section-footer'>{'</work_in_progress>'}</p>
       </div>
+      <div className="guitar-and-music-section">
+        <div className="guitar">
+            <p className="generic-tag">02 / GUITAR</p>
+            <p className="generic-title">ONE SONG AT A TIME.</p>
+            <div className="practice-notebook">
+                <p className="generic-tag">CURRENTLY LEARNING</p>
+                <p className="generic-special-title">[Fade to Black]</p>
+                <p className="generic-description">BY [MetallicA]</p>
+                <span className='practice-notebook-hr'>_</span>
+                <p className="practice-notebook-tag">WORKING ON</p>
+                <p className="practice-notebook-song-part">[Main Solo]</p>
+            </div>
+        </div>
+        <div className="music">
+            <p className="generic-tag">03 / LISTENING TO MUSIC</p>
+            <p className="generic-title">IN MY HEADPHONES.</p>
+            <div className="editable-spotify-area">
+                <p className="generic-tag">MY SPOTIFY CORNER</p>
+                <p className="generic-special-title">[vivzi]</p>
+                <p className="generic-description">I love metalcore I love metalcore I love metalcore also did I mention that I love metalcore?</p>
+                <div className="spotify-link-border">
+                  <a href="https://open.spotify.com/user/spbcypvr019mzcj4jh0xf1p0n" className="spotify-link">[https://open.spotify.com/user/spbcypvr019mzcj4jh0xf1p0n]</a>
+                  <div className='spotify-link-arrow'><svg xmlns="http://www.w3.org/2000/svg" viewBox="1 1 18 18" height="18px" width="18px" fill="292929"><path d="M5.06,16L4,14.94L12.94,6H8V4.5h7.5V12H14V7.06L5.06,16Z"/></svg></div>
+                </div>
+                
+            </div>
+        </div>
+      </div>
     </main>
   )
 }
